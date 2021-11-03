@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculatrice</title>
+</head>
+<body>
+    <div id="bloc">
+    <h1>Calculatrice</h1>
+<div class="content_op">
+    <button class="op" totem = "addition" id="add">+</button>
+    <button class="op"totem = "soustraction" id="sub">-</button>
+    <button class="op" id="mul">*</button>
+    <button class="op" id="div">/</button>
+</div>
+<div id="calcul">
+<p><input type="text" name="nb" id="first_nb" /></p>
+<div id="selected_op">
+
+</div>
+<p><input type="text" name="nb" id="second_nb" /></p>
+</div>
+<div id="result">
+    
+</div>
+<button id="confirm" onclick="calcul()">Valider</button>
+</div>
+<script src="main.js"></script>
+<script src="calc.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
